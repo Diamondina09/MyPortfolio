@@ -1,0 +1,108 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set Times New Roman font and dark reddish-brown background */
+body {
+    font-family: "Times New Roman", Times, serif; /* Times New Roman */
+    background-color: #1A0703; /* Dark Reddish-Brown Background */
+    color: #FFFFFF; /* White Text Color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #300A06; /* Slightly lighter dark red for contrast */
+    color: #FFFFFF; /* White Text */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation Links in Header */
+header nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styling */
+section {
+    padding: 20px;
+}
+
+/* Headings */
+h1, h2, h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+}
+
+/* About Section Styling */
+#about {
+    background-color: #300A06; /* Dark red background for about section */
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+/* Projects Section Styling */
+#projects {
+    background-color: #300A06; /* Dark red background for projects section */
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Individual Project Styling */
+.project {
+    text-align: center;
+    border: 2px solid #FFFFFF; /* White Border */
+    border-radius: 8px;
+    background-color: #300A06; /* Dark Red Background for Projects */
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+    color: #FFFFFF;
+    padding: 15px;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #FFFFFF;
+    transition: transform 0.3s;
+}
+
+.project img:hover {
+    transform: scale(1.05);
+}
+
+/* Reflection Section Styling */
+#reflection {
+    background-color: #300A06; /* Dark red background for reflection section */
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+/* Footer Styling (If you want to keep it) */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #300A06; /* Footer Matches Header */
+    color: #FFFFFF;
+}
